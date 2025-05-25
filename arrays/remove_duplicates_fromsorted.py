@@ -27,5 +27,5 @@ def optimal(arr):
             i += 1
     return (i+1)
 
-nums = list(map(int,input().split()))
+nums = [0,0,1,1,2,2,3,3]
 print(optimal(nums))
