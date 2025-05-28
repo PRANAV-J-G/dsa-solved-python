@@ -46,7 +46,7 @@ class Solution(object):
 s = Solution()
 
 grid  = [[1,1,0],[0,0,1],[0,1,0]]
-s.numEnclaves(grid)
+print(s.numEnclaves(grid))
         
         
         
