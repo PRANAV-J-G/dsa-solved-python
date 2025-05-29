@@ -51,3 +51,4 @@ class Solution:
 # 10*6 is the max array size in the main function and 10*7 is the max size globally , else memory error(segmentation fault)
 
 
+# collision = ????
