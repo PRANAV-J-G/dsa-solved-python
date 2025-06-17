@@ -17,3 +17,21 @@ s = Solution()
 nums = [2, 7, 11, 5]
 target = 9
 print(s.twoSum(nums, target))  # Output: [0, 1]
+
+# using hashmaps (optimal)
+
+
+class Solution:
+    def twoSum(self, nums, target):
+        hashmap = {}
+        for i, num in enumerate(nums):
+            diff = target - num
+            if diff in hashmap:
+                return [hashmap[diff], i]
+            hashmap[num] = i
+
+s = Solution()
+nums = [2, 7, 11, 5]
+target = 9
+print(s.twoSum(nums, target))  # Output: [0, 1]
+

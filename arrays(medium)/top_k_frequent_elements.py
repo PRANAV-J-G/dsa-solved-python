@@ -71,3 +71,4 @@ class Solution:
             res.append(arr.pop()[1])
         return res
 
+
