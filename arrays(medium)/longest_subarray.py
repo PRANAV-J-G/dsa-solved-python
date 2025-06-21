@@ -3,13 +3,12 @@
 def brute(nums,k):
     length = 0
     for i in range(len(nums)):
+        s = 0
         for j in range(i,len(nums)):
-            s = 0
-            for m in range(i,j):
-                s += nums[m]
+            s += nums[j]
 
-                if s == k:
-                    length = max(length,j - i + 1)
+            if s == k:
+                length = max(length,j - i + 1)
     return length
 nums = [3,3,4,5,5,2,1,31,34]
 target = 20
