@@ -64,15 +64,7 @@ def optimal(nums,k):
         if right <n: 
             sum += nums[right]
 
-    return maxlen
-
-
-
-
-            
-
-
-    
+    return maxlen  
 
 # count of subarray with sum k (only positives)
 # for brute modify the length problem slightly 
