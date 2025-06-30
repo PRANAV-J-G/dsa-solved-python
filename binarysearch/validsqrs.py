@@ -18,7 +18,11 @@ class Solution:
                 right = mid - 1 
         return False
     
-# better solution
+s = Solution()
+num = 16
+print(s.isPerfectSquare(num))
+    
+# better solution (also optimal in time complexity)
 def better(num):
     return (num**0.5)%1 == 0
 

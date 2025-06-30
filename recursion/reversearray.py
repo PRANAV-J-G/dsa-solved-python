@@ -17,31 +17,31 @@ print(reverse(arr))
 
 #  basic recursion 
 
-# def rev(l,r):
-#     if l >= r:
-#         return 
+def rev(l,r):
+    if l >= r:
+        return 
 
-#     arr[l],arr[r] = arr[r],arr[l]
-#     rev(l+1,r-1)
+    arr[l],arr[r] = arr[r],arr[l]
+    rev(l+1,r-1)
 
-# def main():
-#     arr = list(map(int,input().split()))
-#     n = len(arr)
-#     print(rev(0,n-1))
+def main():
+    arr = list(map(int,input().split()))
+    n = len(arr)
+    print(rev(0,n-1))
 
-# main()
+main()
 
 
 # Using recursion 
 
-# class Solution:
-#     def reverseArray(self, arr,left = 0,right=None):
-#         if right is None:
-#             right = len(arr) - 1 
+class Solution:
+    def reverseArray(self, arr,left = 0,right=None):
+        if right is None:
+            right = len(arr) - 1 
         
-#         if left >= right:
-#             return 
+        if left >= right:
+            return 
         
-#         arr[left],arr[right] = arr[right],arr[left]
+        arr[left],arr[right] = arr[right],arr[left]
         
-#         self.reverseArray(arr,left+1,right-1)
+        self.reverseArray(arr,left+1,right-1)
