@@ -27,3 +27,7 @@ def binary(intervals):
 
 intervals = [[3,4],[2,3],[1,2]]
 print(binary(intervals))
+
+
+
+        
