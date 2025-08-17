@@ -26,6 +26,4 @@ arr = 'pranav'
 
 
 print(hashing(arr))
-
-
 # hash maps takes logN time for fetching as well as storing 

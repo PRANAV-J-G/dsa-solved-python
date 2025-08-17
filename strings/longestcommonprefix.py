@@ -10,3 +10,5 @@ def prefix(strs):
 strs = ['flowers','floral']
 print(prefix(strs))
 
+
+print(prefix(strs))

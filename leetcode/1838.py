@@ -14,4 +14,4 @@ class Solution:
 
             res = max(res,right - left + 1)
             right += 1
-        return res 
+        return res

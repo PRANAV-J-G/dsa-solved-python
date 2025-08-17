@@ -15,5 +15,3 @@ def kadane(nums):
             end = i
 
     return max_sum, nums[start:end+1]  # sum and actual subarray
-
-

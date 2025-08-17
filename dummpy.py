@@ -1,2 +1,1 @@
-def dp(nums):
-    
+def countofrotations can be anything that you weeanlkjlkjlkj
