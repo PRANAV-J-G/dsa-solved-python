@@ -21,11 +21,9 @@ class Solution:
         cnt_max = -1
         index = -1
         for i in range(rows):
-            first = lowerbound(mat[i],cols,1)
+            first = lowerbound(mat[i],cols,1)            
             ones_count = cols - first
             if ones_count > cnt_max:
                 cnt_max = ones_count        
                 index = i
         return [index,cnt_max]
-        
-

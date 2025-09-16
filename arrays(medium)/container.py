@@ -29,3 +29,4 @@ def brute(heights):
     return res
 print(brute(height))
 
+
