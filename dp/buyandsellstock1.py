@@ -8,3 +8,5 @@ def solution(prices):
         profit = max(profit,curr_profit)
         curr_min = min(curr_min,sale)
     return profit
+
+    
