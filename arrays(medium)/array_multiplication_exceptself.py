@@ -1,4 +1,5 @@
 # using prefix and postfix sum
+from typing import List     
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         res = [1] * len(nums)
@@ -17,7 +18,6 @@ class Solution:
         return res        
 
 # brute force with n2 tc 
-from collections import List
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         n = len(nums)

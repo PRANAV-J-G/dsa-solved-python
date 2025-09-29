@@ -1,1 +1,1 @@
-def countofrotations can be anything that you weeanlkjlkjlkj
+print("Hello world")
